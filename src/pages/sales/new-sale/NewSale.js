@@ -69,7 +69,7 @@ function NewSale() {
             user: user.value,
             code: code.value
         }
-        fetch("http://18.117.223.1:3000/tickets", {
+        fetch("http://18.117.223.1:3000/tickets/", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
