@@ -67,7 +67,7 @@ function NewSale() {
         setLoad(false);
         const data = {
             user: user.value,
-            flight: code.value
+            code: code.value
         }
         fetch("http://18.117.223.1:3000/tickets", {
             method: 'POST',
