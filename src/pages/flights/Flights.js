@@ -116,7 +116,7 @@ function Flights() {
     function filter() {
         const end  = document.getElementById('end').value;
         const start  = document.getElementById('start').value;
-        data = {
+        const data = {
             departure: start,
             arrival: end,
         }
