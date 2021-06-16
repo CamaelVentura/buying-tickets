@@ -78,7 +78,7 @@ function NewSale() {
         }).then((res) => res.json())
             .then((json) => {
                 console.log(json);
-                ticketNumber=json.ticketCode;
+                ticketNumber=json.code;
                 setLoad(true);
 
             });
